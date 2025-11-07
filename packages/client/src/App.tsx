@@ -12,7 +12,9 @@ function App() {
       });
   }, []);
 
-  return <span>{message}</span>;
+  return (
+    <span className="font-bold p-4 text-4xl text-cyan-600">{message}</span>
+  );
 }
 
 export default App;
