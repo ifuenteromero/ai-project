@@ -1,0 +1,20 @@
+{
+	"jsxSingleQuote": true,
+	"semi": true,
+	"singleQuote": true,
+	"arrowParens": "avoid",
+	"tabWidth": 4,
+	"bracketSameLine": false,
+	"bracketSpacing": true,
+	"trailingComma": "es5",
+	"useTabs": true,
+	"singleAttributePerLine": true,
+	"overrides": [
+		{
+			"files": "*.html",
+			"options": {
+				"singleAttributePerLine": false
+			}
+		}
+	]
+}
