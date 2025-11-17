@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import { Button } from "./components/ui/button";
 
 function App() {
   const [message, setMessage] = useState("");
@@ -13,7 +14,10 @@ function App() {
   }, []);
 
   return (
-    <span className="font-bold p-4 text-4xl text-cyan-600">{message}</span>
+    <div className="p-4 flex flex-col gap-4">
+      <span className="font-bold text-4xl text-cyan-600">{message}</span>
+      <Button className="max-w-fit">Click me</Button>
+    </div>
   );
 }
 
